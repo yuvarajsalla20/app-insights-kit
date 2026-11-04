@@ -1,0 +1,14 @@
+{
+  "name": "app-insights-kit",
+  "version": "0.1.0",
+  "description": "One private page with downloads, rating and new reviews for all your apps. No dependencies.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "sample": "node src/cli.js sample",
+    "pull": "node src/cli.js pull",
+    "build": "node src/cli.js build",
+    "test": "node --test"
+  }
+}
